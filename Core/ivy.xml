@@ -22,6 +22,8 @@
             <exclude module="cleartk-ml"/>
         </dependency>
         
+        <dependency conf="core->default" org="net.java.dev.jna" name="jna-platform" rev="5.4.0"/>
+
         <!-- Pull down the latest cxf-rt-rs-client which has the Ivy fix -->
         <dependency conf="core->default" org="org.apache.cxf" name="cxf-rt-rs-client" rev="3.3.0"/>
         <dependency conf="core->default" org="org.cleartk" name="cleartk-ml" rev="2.0.0"/>
