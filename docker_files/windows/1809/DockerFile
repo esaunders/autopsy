@@ -1,0 +1,13 @@
+FROM mcr.microsoft.com/windows:1809
+
+SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+
+RUN Write-Host 'Downloading Autopsy' ; \
+    $MsiFile = $env:Temp + '\autopsy-4.13.0-64bit.msi' ; \
+    (New-Object Net.WebClient).DownloadFile('https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.13.0/autopsy-4.13.0-64bit.msi', $MsiFile) ; \
+    Write-Host 'Installing Autopsy' ; \
+    Start-Process msiexec.exe -ArgumentList '/i', $MsiFile, '/quiet', '/norestart' -NoNewWindow -Wait
+
+WORKDIR "C:\\Program Files\\Autopsy-4.13.0"
+
+ENTRYPOINT ["bin\\autopsy64.exe"]
