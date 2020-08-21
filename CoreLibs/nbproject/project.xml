@@ -810,6 +810,10 @@
                 <binary-origin>release/modules/ext/gson-2.8.5.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
+                <runtime-relative-path>ext/jfxtras-common-8.0-r4.jar</runtime-relative-path>
+                <binary-origin>release\modules\ext\jfxtras-common-8.0-r4.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
                 <runtime-relative-path>ext/jsr305-1.3.9.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/jsr305-1.3.9.jar</binary-origin>
             </class-path-extension>
@@ -820,10 +824,6 @@
             <class-path-extension>
                 <runtime-relative-path>ext/imgscalr-lib-4.2.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/imgscalr-lib-4.2.jar</binary-origin>
-            </class-path-extension>
-            <class-path-extension>
-                <runtime-relative-path>ext/jfxtras-fxml-10.0-r1.jar</runtime-relative-path>
-                <binary-origin>release\modules\ext\jfxtras-fxml-10.0-r1.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
                 <runtime-relative-path>ext/common-io-3.2.jar</runtime-relative-path>
@@ -898,12 +898,20 @@
                 <binary-origin>release/modules/ext/commons-csv-1.4.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
+                <runtime-relative-path>ext/jfxtras-controls-8.0-r4.jar</runtime-relative-path>
+                <binary-origin>release\modules\ext\jfxtras-controls-8.0-r4.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
                 <runtime-relative-path>ext/imageio-sgi-3.2.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/imageio-sgi-3.2.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
                 <runtime-relative-path>ext/geronimo-jms_1.1_spec-1.0.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/geronimo-jms_1.1_spec-1.0.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
+                <runtime-relative-path>ext/jfxtras-fxml-8.0-r4.jar</runtime-relative-path>
+                <binary-origin>release\modules\ext\jfxtras-fxml-8.0-r4.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
                 <runtime-relative-path>ext/joda-time-2.4.jar</runtime-relative-path>
@@ -928,10 +936,6 @@
             <class-path-extension>
                 <runtime-relative-path>ext/guava-19.0.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/guava-19.0.jar</binary-origin>
-            </class-path-extension>
-            <class-path-extension>
-                <runtime-relative-path>ext/jfxtras-common-10.0-r1.jar</runtime-relative-path>
-                <binary-origin>release\modules\ext\jfxtras-common-10.0-r1.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
                 <runtime-relative-path>ext/commons-io-2.5.jar</runtime-relative-path>
@@ -984,10 +988,6 @@
             <class-path-extension>
                 <runtime-relative-path>ext/commons-lang3-3.0.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/commons-lang3-3.0.jar</binary-origin>
-            </class-path-extension>
-            <class-path-extension>
-                <runtime-relative-path>ext/jfxtras-controls-10.0-r1.jar</runtime-relative-path>
-                <binary-origin>release\modules\ext\jfxtras-controls-10.0-r1.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
                 <runtime-relative-path>ext/javaee-api-5.0-2.jar</runtime-relative-path>
